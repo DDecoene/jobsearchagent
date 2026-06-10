@@ -80,6 +80,20 @@ Each job is uniquely identified by:
 
 ---
 
+## 4b. Candidate Profile (Private Input)
+
+The agent's scoring is anchored by a personal search profile in `PROFILE.md`
+(gitignored — copy `PROFILE.template.md` and fill it in).
+
+Rules:
+
+* `PROFILE.md` is read at runtime and injected into scoring prompts
+* It is NEVER committed; only the template lives in the repo
+* If `PROFILE.md` is missing, the agent must refuse to score and instruct
+  the user to create it — generic scoring without the profile is noise
+
+---
+
 ## 5. Input Data Model
 
 All job listings are normalized into:

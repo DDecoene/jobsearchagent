@@ -216,3 +216,6 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Personal search profile — private, never committed (see PROFILE.template.md)
+PROFILE.md
