@@ -219,3 +219,7 @@ __marimo__/
 
 # Personal search profile — private, never committed (see PROFILE.template.md)
 PROFILE.md
+
+# Local job database and raw API dumps
+data/
+raw.json
